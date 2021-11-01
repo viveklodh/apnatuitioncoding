@@ -19,7 +19,7 @@ void main() {
 }
 class ABC {
   
-  final int a = 10;
+  final int abcd = 10;
   
   static const int ab = 20;
   
