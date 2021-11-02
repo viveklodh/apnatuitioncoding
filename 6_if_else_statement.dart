@@ -1,34 +1,23 @@
 
-void main(){
-  
-  
-  // if else statements 
-  
-  // number is positive or not
-  
-//   int number  = 40 ;
-  
-//   if (number < 0) {
-    
-//     print("$number is negative");
-//   }
-//   else {
-    
-//     print("$number is positive");
-//   }
-  
   //largest number in two
   
-  int a = 50 ;
   
-  int b = 20;
+void main() {
   
-  if ( a > b ) {
-    
-     print("$a is larger ");
-  }
-  else 
+  // if - else statements 
+  
+  int number1 = 200;
+  
+  int number2 = 400;
+
+  
+  if (number1 > number2 )
   {
-    print("$b is larger");
+    print("$number1 is larger");
   }
+  else {
+    print("$number2 is larger");
+  }
+  
+
 }
