@@ -2,24 +2,27 @@
 
 void main() {
   
-
-  //syntax
+  //syntax 
   
   // (condition)? stmt1 : stmt2 ;
   
-//   int number = -5;
+  //number is positive or negative ?
   
-//   (number>0)? print("number is positive") : print("number is negative");
+//   int number = -10;
   
-  int a = 50;
-  int b = 10;
   
-  int large = 0;
+//   (number > 0)? print("number is positive") : print("number is negative");
   
-   large = (a>b)? a : b ;
+  // largest among two numbers
+  
+  int a = 10 ;
+  int b = -100;
+  
+  (a > b)? print(a) : print(b);
+  
+  int large = (a > b)? a : b;
   
   print(large);
- 
-  
-}
 
+   
+}
