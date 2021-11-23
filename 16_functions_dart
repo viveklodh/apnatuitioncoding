@@ -1,0 +1,33 @@
+//function or method
+// syntax 
+//area of rectangle 
+//required parameter
+
+void main() {
+  
+  rectArea(2,10);
+  
+  int p = rectPerimeter(2,4);
+  
+  print("perimeter of rectangle $p");
+}
+
+void rectArea(int l , int b){
+  
+  int a = l*b;
+  
+  print("area of rectangle $a");
+}
+
+int rectPerimeter(int l , int b){
+  
+  int p = 2*(l+b);
+    
+  return p;
+}
+
+
+// returntype func_name(){
+  
+//   code
+// }
