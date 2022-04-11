@@ -1,0 +1,37 @@
+// inheritance 
+
+void main(){
+  
+ Dog objDog = Dog();
+  
+  objDog.age = 5;
+  
+ Cat objCat = Cat();
+  
+  objCat.meow();
+  
+}
+
+class Animal {
+   String? color;
+  int? age ;
+  
+  void eat(){
+    print("eating");
+  }
+}
+
+class Dog extends Animal{
+  
+    void bark(){
+    print("dog is barking");
+  }
+}
+
+class Cat extends Animal{
+  
+   void meow(){
+    print("cat is meowing");
+  }
+}
+
