@@ -1,0 +1,38 @@
+// Inheritance With Default Constructor
+// Inheritance With Parametrized Constructor
+// Inheritance With Named Constructor
+
+
+void main() {
+  
+  Cycle objCycle1 = Cycle();
+  
+  print("");
+  
+  Cycle objCycle2 = Cycle();
+  
+    print("");
+
+  Cycle.myNamedCycleConstructor("red");
+     
+}
+
+class Bike {
+  String? color;
+  
+  Bike(){
+    print("this is bike const");
+  }
+}
+
+class Cycle extends Bike {
+  int? price;
+  
+   Cycle():super(){
+    print("this is cycle const");
+  }
+  
+  Cycle.myNamedCycleConstructor(String color):super(){
+    print("named constructor of cycle ");
+  }
+}
