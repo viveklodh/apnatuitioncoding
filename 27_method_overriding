@@ -1,0 +1,36 @@
+// Method Overriding // Polymorphism  
+
+void main(){
+  
+  Cycle obj = Cycle();
+  
+  obj.move();
+  
+}
+
+class Bike {
+  
+  void move(){
+    print("Bike is Moving");
+  }
+  
+}
+
+class Cycle extends Bike {
+  
+  String? color;
+  
+  stop(){
+    print("Cycle stop");
+  }
+  
+    void move(){
+    print("Cycle is Moving");
+           super.move();
+
+  }
+  
+}
+
+
+
