@@ -1,0 +1,40 @@
+// Abstract Class
+// Abstract Method 
+
+void main(){
+    
+//   Shape obj = Shape();
+  
+  Rectangle rect = Rectangle();
+  
+  rect.draw();
+  
+  Square sqr = Square();
+  
+  sqr.draw();
+  
+}
+
+abstract class Shape {
+  
+  void draw();
+    
+}
+
+class Square extends Shape{
+  
+  void draw(){
+    
+    print("square");
+    
+  }
+}
+
+class Rectangle extends Shape{
+  
+  void draw(){
+    
+    print("rectangle");
+    
+  }
+}
