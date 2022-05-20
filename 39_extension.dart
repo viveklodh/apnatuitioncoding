@@ -1,24 +1,35 @@
-// singleton class //
-//class has only one instance and also provides 
-//a global point of access to it.
+
+//Extensions are a way to add functionality to 
+//existing libraries.
 
 void main(){
+//  print(40.toWord);
+  
+  var date = DateTime.now();
 
-GlobalClass a = GlobalClass();
-  GlobalClass b = GlobalClass();
-  if(a == b){
-    print("true");
-  }else{
-    print("false");
-  }
+  print(date.myCustomDate);
+  
 }
 
-class GlobalClass {
-  static final GlobalClass _singleton = GlobalClass._internal();
-
-  factory GlobalClass() {
-    return _singleton;
-  }
-
-  GlobalClass._internal();
+extension on DateTime{
+ get myCustomDate{
+   
+   return "${this.day}/${this.month}/${this.year}";
+ }
 }
+
+// extension on int{
+//   get toWord {
+//     switch(this){
+//       case 1 : return "one";
+//       case 2 : return "two";
+//       case 3 : return "three";
+//       case 4 : return "four";
+//       case 5 : return "five";
+//       case 6 : return "six";
+      
+//       default: return "enter 1 to 6 num only";
+        
+//     }
+//   }
+// }
