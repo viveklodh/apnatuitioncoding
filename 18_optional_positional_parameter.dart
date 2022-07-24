@@ -8,7 +8,7 @@ void main() {
 }
 
 
-void cityName(String a , [String? b ,String? c]){
+void cityName(String? a , [String? b ,String? c]){
   
     print("first city $a");
     print("second city $b");
