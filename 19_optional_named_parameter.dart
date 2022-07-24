@@ -3,14 +3,13 @@
 
 void main() {  
 
-   volumeBox(1,b:2,h:6);  
+   volumeBox(1,b:2);  
 }
 
 
-void volumeBox(int l ,{int b, int h}) {
+void volumeBox(int? l ,{int? b, int? h}) {
   
-int v = l*b*h;
-  
-  print("volume of Box $v");
-  
+   print(l);
+   print(b);
+   print(h??0); // for null value we can give default value
 }
