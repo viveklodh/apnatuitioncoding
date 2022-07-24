@@ -8,7 +8,7 @@ void main() {
 }
 
 
-void volumeBox(int l ,{int b, int h=10}) {
+void volumeBox(int? l ,{int? b, int? h=10}) {
   
 int v = l*b*h;
   
