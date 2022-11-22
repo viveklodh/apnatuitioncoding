@@ -1,20 +1,35 @@
-void main() {
 
-  // this is my first program for demo 
+
+main(){
   
-print("hello world");
-
-print("this is my first program");
+  /*
+   
+   tjhahbd
+   dhsdbs
+   dhsdjs
+   dhjsjhd
+   
+   */
+  
+  // this is my first program
+  
+  /// this documentation comments 
+  
+  print("hello world");
   
   // this is maths operation
-
-print(4);
-
-print(5-3);
-
-print(8/4);
-
-  // printing out boolean value 
-print(true);
-
+  
+  print(5);
+  
+  print(5+5);
+  
+  print(10/2);
+  
+  print(10*2);
+  
+  print(10%2);
+  
+  print(true);
+  
+  print(false);
 }
